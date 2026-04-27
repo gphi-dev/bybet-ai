@@ -1,0 +1,109 @@
+
+{
+  "companyOverview": {
+    "name": "Global Play Hub Innovations Corp.",
+    "shortName": "GPHI",
+    "type": "Philippine Inland Gaming Operator (PIGO)",
+    "ownership": "100% Filipino-owned",
+    "established": "2025",
+    "regulator": "Philippine Amusements and Gaming Corporation (PAGCOR)",
+    "licenseStatus": "Authorized by PAGCOR to operate"
+  },
+  "brand": {
+    "coreBrand": "ByBet",
+    "description": "ByBet is GPHI’s online sports betting platform.",
+    "positioning": "A fair, transparent, and engaging online sports betting experience."
+  },
+  "whatWeDo": {
+    "summary": "Global Play Hub Innovations Corp. provides online sports betting services through ByBet.",
+    "focus": [
+      "Entertainment, not livelihood",
+      "Fair and responsible gaming",
+      "Technology-driven user experience",
+      "Player-focused service"
+    ]
+  },
+  "missionVision": {
+    "mission": "To become the leading online sports betting company in the Philippines through best practices, innovation, and a passionate workforce.",
+    "vision": "To be the top-of-mind PIGO in the Philippines, specializing in sports betting and fan engagement."
+  },
+  "businessPhilosophy": {
+    "corePrinciple": "Brave innovation, continuous learning, and benefit sharing.",
+    "keyIdeas": [
+      "Exceed customer expectations",
+      "Maintain high ethical standards",
+      "Encourage collaboration and win-win outcomes",
+      "Embrace challenges and innovation",
+      "Support continuous workforce development"
+    ]
+  },
+  "coreValues": [
+    "Inclusiveness",
+    "Competitiveness",
+    "Accountability",
+    "Social Responsibility"
+  ],
+  "responsibleGaming": {
+    "position": "Gaming is a form of entertainment, not a source of livelihood.",
+    "emphasis": [
+      "Player safety",
+      "Regulation compliance",
+      "Ethical operations",
+      "Responsible gaming practices"
+    ]
+  },
+  "compliance": {
+    "licensedUnder": "PAGCOR",
+    "measures": [
+      "Know Your Customer (KYC) requirements",
+      "Anti-fraud measures",
+      "Responsible gaming policies"
+    ]
+  },
+  "careers": {
+    "applicationEmail": "careers@gphi.net",
+    "sampleRoles": [
+      "Graphic Designer",
+      "Events Specialist",
+      "Multimedia Artist",
+      "Marketing Communications Specialist",
+      "Promotions Specialist"
+    ]
+  },
+  "benefits": [
+    "Government-mandated benefits",
+    "Food allowance",
+    "Birthday bonus",
+    "KPI-based bonus",
+    "Employee gatherings",
+    "Career growth opportunities"
+  ],
+  "faq": [
+    {
+      "question": "What is Global Play Hub Innovations Corp.?",
+      "answer": "Global Play Hub Innovations Corp. is a PAGCOR-authorized Philippine Inland Gaming Operator focused on providing safe, fair, and entertaining online sports betting experiences through ByBet."
+    },
+    {
+      "question": "What is ByBet?",
+      "answer": "ByBet is GPHI’s online sports betting platform designed to provide a fair, transparent, and engaging experience for players."
+    },
+    {
+      "question": "Is ByBet legal?",
+      "answer": "Yes. Global Play Hub Innovations Corp. is authorized by PAGCOR, and ByBet operates as part of that regulated framework."
+    },
+    {
+      "question": "Is betting safe?",
+      "answer": "GPHI promotes responsible gaming and follows verification, compliance, and safety-oriented standards to protect users."
+    },
+    {
+      "question": "How do I apply for a job?",
+      "answer": "You can apply by sending your resume to careers@gphi.net and indicating the position you are applying for."
+    }
+  ],
+  "keyTerms": {
+    "PIGO": "Philippine Inland Gaming Operator",
+    "PAGCOR": "Philippine Amusements and Gaming Corporation",
+    "KYC": "Know Your Customer identity verification",
+    "ResponsibleGaming": "Practices intended to prevent addiction, harm, fraud, and unsafe behavior"
+  }
+}

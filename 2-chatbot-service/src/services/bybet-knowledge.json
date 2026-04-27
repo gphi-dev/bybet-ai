@@ -1,0 +1,597 @@
+[
+  {
+    "id": "spiel_about_site",
+    "category": "spiel",
+    "question": "Tell me about ByBet / the site",
+    "keywords": [
+      "tell me about the site",
+      "about the site",
+      "about bybet",
+      "what is bybet",
+      "what's bybet",
+      "bybet site",
+      "introduce bybet"
+    ],
+    "answer": "ByBet is an online sports betting platform: you register, complete identity verification when prompted, add funds, place sports wagers, and request withdrawals from your account. Betting is offered as entertainment—set limits you are comfortable with. For balances, transaction status, or account locks, speak with ByBet customer support.",
+    "priority": 10
+  },
+  {
+    "id": "spiel_opening",
+    "category": "spiel",
+    "question": "Greeting / how can you help",
+    "keywords": [
+      "hello",
+      "hi there",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "help me",
+      "i need help",
+      "what can you do"
+    ],
+    "answer": "Hi — I’m ByBet’s virtual assistant. I can walk you through registration, passwords, bank setup, KYC, deposits and withdrawals, sports betting basics, promotions (how to read and claim them), OTP issues, and responsible gaming. I can’t see your account or balances. For anything specific to your money, verification, or bets, ByBet customer support will handle it directly.",
+    "priority": 6
+  },
+  {
+    "id": "register_how_to_register",
+    "category": "registration",
+    "question": "How do I register on ByBet?",
+    "keywords": [
+      "register",
+      "registration",
+      "sign up",
+      "create account",
+      "open account",
+      "how do i register",
+      "new account"
+    ],
+    "answer": "Register in four steps: (1) Open the official ByBet site or app from a trusted source. (2) Tap **Register** and enter your mobile number and password exactly as requested. (3) Complete SMS or email verification when the code arrives. (4) Log in and finish any profile fields the system asks for before you deposit. Use your real name and details—mistakes here delay KYC later. If an error appears, screenshot it and send it to ByBet customer support.",
+    "priority": 10
+  },
+  {
+    "id": "password_create",
+    "category": "password",
+    "question": "Password creation rules",
+    "keywords": [
+      "password rules",
+      "create password",
+      "password requirements",
+      "strong password"
+    ],
+    "answer": "Create a password that satisfies every rule listed on the same screen (length, upper/lower case, numbers, symbols—whatever ByBet displays). Do not reuse passwords from other sites. Never give your password to anyone claiming to be support. If the field keeps rejecting your input, read the red text under the box, adjust, and try again—then contact ByBet customer support if it still fails.",
+    "priority": 8
+  },
+  {
+    "id": "password_forgot",
+    "category": "password",
+    "question": "Forgot login password",
+    "keywords": [
+      "forgot password",
+      "reset password",
+      "cannot login",
+      "can't login",
+      "login password"
+    ],
+    "answer": "On the login page, tap **Forgot password**, enter your registered mobile number, request the OTP, and type the code in full. Set a brand-new password that meets the strength rules. Still no SMS? See our OTP troubleshooting topic or call ByBet customer support with the number you registered—never share the OTP itself with anyone.",
+    "priority": 10
+  },
+  {
+    "id": "password_withdrawal",
+    "category": "password",
+    "question": "Withdrawal password",
+    "keywords": [
+      "withdrawal password",
+      "cash out password",
+      "payout password"
+    ],
+    "answer": "Your withdrawal password is separate from your login password. Set it under **Security**, **Wallet**, or **Account** settings (wording varies by app version). Store it privately. Forgot it? Use **Forgot withdrawal password** on the same screen if shown, or reset through the security flow ByBet lists. ByBet customer support can reset it only after identity checks—have your verified details ready.",
+    "priority": 9
+  },
+  {
+    "id": "app_download",
+    "category": "registration",
+    "question": "App download",
+    "keywords": [
+      "download app",
+      "install app",
+      "apk",
+      "ios",
+      "android app",
+      "bybet app"
+    ],
+    "answer": "Install ByBet only from the official website link or the official store listing—never from random APK mirrors. After install, grant camera/storage only if the app asks for KYC or updates. Android: enable “Install unknown apps” only for the official source you trust. iOS: use the App Store link ByBet provides. If install fails, note the exact error text and your phone model, then contact ByBet customer support.",
+    "priority": 8
+  },
+  {
+    "id": "bank_bind",
+    "category": "bank_account",
+    "question": "Bind bank account",
+    "keywords": [
+      "bind bank",
+      "add bank",
+      "link bank account",
+      "bank account binding"
+    ],
+    "answer": "Go to **Wallet** → **Bank account** (or **Withdraw** → **Add account**). Enter the account name exactly as on your bank book or e-wallet profile, then the account number. The name must match your verified ID. Submit and wait for confirmation. If the system blocks you, copy the error message and contact ByBet customer support—do not create a second account to bypass it.",
+    "priority": 9
+  },
+  {
+    "id": "bank_delete_change",
+    "category": "bank_account",
+    "question": "Delete or change bank account",
+    "keywords": [
+      "delete bank",
+      "remove bank",
+      "change bank account",
+      "update bank"
+    ],
+    "answer": "Open **Wallet** → **Bank accounts**, select the account, and look for **Delete**, **Replace**, or **Edit**. Confirm with OTP or withdrawal password when asked. No delete button? Finish any pending withdrawal on that account first, or the profile is under review—message ByBet customer support with your username and what you see on screen.",
+    "priority": 8
+  },
+  {
+    "id": "bank_limit",
+    "category": "bank_account",
+    "question": "Bank account limits",
+    "keywords": [
+      "bank limit",
+      "maximum bank",
+      "how many banks"
+    ],
+    "answer": "The number of saved accounts and per-transaction caps are controlled in **Wallet** / **Bank** settings and tied to your verification level. Open that section to see how many slots you have left and each channel’s cap. Need a higher limit? ByBet customer support reviews that after they confirm your profile.",
+    "priority": 7
+  },
+  {
+    "id": "bank_supported",
+    "category": "bank_account",
+    "question": "Supported banks",
+    "keywords": [
+      "supported banks",
+      "which banks",
+      "bank list",
+      "gcash",
+      "paymaya",
+      "maya"
+    ],
+    "answer": "From **Deposit** or **Withdraw**, tap **Add method** or **Select bank**—the scroll list is the live list for your account (banks, e-wallets, OTC partners). Pick only what appears there. If yours is missing, pick another available channel for now, or ask ByBet customer support whether your bank can be added.",
+    "priority": 8
+  },
+  {
+    "id": "kyc_process",
+    "category": "kyc",
+    "question": "KYC process",
+    "keywords": [
+      "kyc",
+      "kyc process",
+      "kyc steps",
+      "what is kyc",
+      "about kyc",
+      "verify identity",
+      "upload id",
+      "know your customer"
+    ],
+    "answer": "KYC confirms you are who you say you are. Steps: (1) Open **Account** / **Verification** / **KYC**. (2) Choose your ID type from the list (national ID, passport, etc.). (3) Photograph the front and back in good light—no glare, no cropped edges. (4) Complete the selfie or liveness step if the system asks. (5) Submit and wait—status shows as pending, approved, or rejected. Use genuine documents only; edited photos are rejected.",
+    "priority": 12
+  },
+  {
+    "id": "kyc_timeframe",
+    "category": "kyc",
+    "question": "KYC review timeframe",
+    "keywords": [
+      "how long kyc",
+      "kyc pending",
+      "kyc review time",
+      "when will kyc"
+    ],
+    "answer": "Reviews are queued in order—simple, clear submissions move faster. Watch **Verification** for status changes. If nothing moves for an extended period, send ByBet customer support your username, ID type, and submission date/time so they can locate the ticket.",
+    "priority": 11
+  },
+  {
+    "id": "kyc_rejected",
+    "category": "kyc",
+    "question": "Why was my KYC rejected?",
+    "keywords": [
+      "why was my kyc rejected",
+      "kyc rejected",
+      "verification failed",
+      "kyc denied",
+      "why rejected"
+    ],
+    "answer": "Most rejections are fixable: blurry photo, glare, expired ID, name spelling different from registration, or selfie not matching the ID. Open **KYC** again—read the reason line ByBet printed. Resubmit with a new photo following each bullet on screen. Still confused? Screenshot the rejection screen and send it to ByBet customer support; they’ll tell you exactly what to retake.",
+    "priority": 13
+  },
+  {
+    "id": "kyc_cooldown",
+    "category": "kyc",
+    "question": "KYC resubmit cooldown",
+    "keywords": [
+      "kyc cooldown",
+      "try again later",
+      "resubmit kyc"
+    ],
+    "answer": "A cooldown timer means you must wait before the next upload—use that time to fix lighting and ID validity. When the timer hits zero, open **KYC** → **Resubmit** and upload fresh images. If the timer looks wrong or never clears, contact ByBet customer support with your username.",
+    "priority": 10
+  },
+  {
+    "id": "deposit_how",
+    "category": "deposit",
+    "question": "How do I deposit?",
+    "keywords": [
+      "how do i deposit",
+      "deposit money",
+      "add funds",
+      "top up",
+      "cash in"
+    ],
+    "answer": "Deposit flow: (1) Log in and open **Wallet** or tap **Deposit** on the home bar. (2) Pick your channel (bank transfer, e-wallet, QR, etc.). (3) Type the amount—the screen shows minimum, maximum, and any fee before you continue. (4) Tap **Next** / **Pay** and complete payment in your bank or e-wallet app using the reference or QR ByBet gives you. (5) Return to ByBet and open **Transaction history** to confirm **Success**. Keep the reference number until the balance updates.",
+    "priority": 12
+  },
+  {
+    "id": "deposit_receipt",
+    "category": "deposit",
+    "question": "Deposit receipt / reference",
+    "keywords": [
+      "deposit receipt",
+      "reference number",
+      "proof of payment"
+    ],
+    "answer": "After you pay, screenshot the bank or e-wallet receipt showing reference number, amount, and timestamp. In ByBet, copy the deposit request ID if one is shown. When you contact support, send: username, channel, amount, reference, and time—never your full online banking password.",
+    "priority": 10
+  },
+  {
+    "id": "deposit_pending",
+    "category": "deposit",
+    "question": "Deposit pending",
+    "keywords": [
+      "deposit pending",
+      "deposit not credited",
+      "waiting for deposit"
+    ],
+    "answer": "Stay on **Transaction history** and pull to refresh. Many credits land within minutes; some bank rails take longer during cutoffs or weekends. If the line still reads **Pending** after a long wait, message ByBet customer support with username, amount, reference, and payment time—attach your receipt screenshot.",
+    "priority": 11
+  },
+  {
+    "id": "deposit_rejected",
+    "category": "deposit",
+    "question": "Deposit rejected",
+    "keywords": [
+      "deposit rejected",
+      "deposit failed",
+      "payment failed"
+    ],
+    "answer": "Open the failed row in **Transaction history** and read the reason code (wrong amount, wrong reference, duplicate reference, channel offline, etc.). Start a **new** deposit request, enter the exact amount ByBet generated, and paste the reference carefully. Two failures in a row? Stop and send ByBet customer support a screen recording or screenshots of each step.",
+    "priority": 11
+  },
+  {
+    "id": "deposit_cancel",
+    "category": "deposit",
+    "question": "Cancel deposit",
+    "keywords": [
+      "cancel deposit",
+      "void deposit"
+    ],
+    "answer": "If the deposit is still **Waiting for payment**, tap **Cancel** on that request if the button is there. Money already left your bank? You can’t cancel from ByBet alone—wait for auto-reversal or ask ByBet customer support to trace it with your reference.",
+    "priority": 9
+  },
+  {
+    "id": "deposit_third_party",
+    "category": "deposit",
+    "question": "Third-party deposit",
+    "keywords": [
+      "someone else deposited",
+      "friend sent money",
+      "third party deposit"
+    ],
+    "answer": "Fund only from accounts and e-wallets registered under your own name. Third-party deposits are blocked or held for compliance and can be returned at the operator’s discretion. Sent from the wrong account by mistake? Contact ByBet customer support immediately with proof of the mistaken transfer—do not ask a friend to “fix” it through chat.",
+    "priority": 11
+  },
+  {
+    "id": "deposit_limits",
+    "category": "deposit",
+    "question": "Deposit limits",
+    "keywords": [
+      "deposit limit",
+      "minimum deposit",
+      "maximum deposit"
+    ],
+    "answer": "Minimum and maximum per channel appear on the **Deposit** screen **before** you confirm—read those two numbers every time you switch method. After VIP tier or extra verification, higher caps show on the same screen. Need a manual review? Ask ByBet customer support.",
+    "priority": 10
+  },
+  {
+    "id": "deposit_maintenance",
+    "category": "maintenance",
+    "question": "Deposit channel maintenance",
+    "keywords": [
+      "deposit maintenance",
+      "channel maintenance",
+      "payment maintenance"
+    ],
+    "answer": "When a channel shows **Maintenance**, pick another active method from the list or return after the countdown or banner end time. Announcements also post on ByBet’s official pages. Don’t send money to old account numbers shown during maintenance—always use the details generated inside the live deposit flow.",
+    "priority": 9
+  },
+  {
+    "id": "withdraw_how",
+    "category": "withdrawal",
+    "question": "How do I withdraw?",
+    "keywords": [
+      "how do i withdraw",
+      "withdraw money",
+      "cash out",
+      "payout"
+    ],
+    "answer": "Withdraw step-by-step: (1) Finish any bonus wagering shown under **My promotions** / **Bonus** if you accepted an offer. (2) Open **Withdraw**, select your verified bank or e-wallet. (3) Enter amount within the displayed min/max and daily cap. (4) Enter withdrawal password + SMS OTP when prompted. (5) Submit—note the withdrawal ID. Track status under **Transaction history** (**Processing** → **Paid** or **Failed**). First payout after KYC approval can take extra review time.",
+    "priority": 12
+  },
+  {
+    "id": "withdraw_pending",
+    "category": "withdrawal",
+    "question": "Withdrawal pending",
+    "keywords": [
+      "withdrawal pending",
+      "withdrawal processing",
+      "still processing"
+    ],
+    "answer": "**Processing** means risk review or bank batching. Don’t submit duplicate requests—open the same ticket and read updates. If it exceeds the SLA message shown for your tier, contact ByBet customer support with withdrawal ID, amount, and timestamp from **Transaction history**.",
+    "priority": 11
+  },
+  {
+    "id": "withdraw_rejected",
+    "category": "withdrawal",
+    "question": "Withdrawal rejected",
+    "keywords": [
+      "withdrawal rejected",
+      "withdrawal failed",
+      "payout rejected"
+    ],
+    "answer": "Tap the failed withdrawal to read the code: unfinished wagering, name mismatch, bank offline, or security hold. Fix the underlying issue—complete turnover, update bank details, or upload what compliance asked for—then place a **new** withdrawal. Need the hold lifted? ByBet customer support is the only channel that can explain a security block.",
+    "priority": 12
+  },
+  {
+    "id": "withdraw_wagering",
+    "category": "withdrawal",
+    "question": "Wagering requirement before withdrawal",
+    "keywords": [
+      "wagering",
+      "turnover",
+      "rollover",
+      "bonus wagering"
+    ],
+    "answer": "Bonuses lock part of your balance until you bet the required multiple of the bonus or deposit—your **Bonus** / **Promotion** page shows **Remaining turnover: [amount]**. Sports bets count according to the promo rules listed there. The balance becomes withdrawable only after that number hits zero. If the counter looks stuck, screenshot it and contact ByBet customer support.",
+    "priority": 11
+  },
+  {
+    "id": "withdraw_third_party",
+    "category": "withdrawal",
+    "question": "Withdraw to someone else’s account",
+    "keywords": [
+      "withdraw to other account",
+      "send to friend",
+      "different name"
+    ],
+    "answer": "Payouts go only to payment methods that match your verified full name. Sending to a friend’s account is not permitted. Update your registered bank or e-wallet through the official change process first; never ask support to “override” a name mismatch.",
+    "priority": 11
+  },
+  {
+    "id": "troubleshoot_otp",
+    "category": "troubleshooting",
+    "question": "I did not receive OTP",
+    "keywords": [
+      "did not receive otp",
+      "no otp",
+      "otp not received",
+      "sms code",
+      "verification code"
+    ],
+    "answer": "Turn off airplane mode, confirm signal, and verify you typed the correct mobile prefix. Tap **Resend** once per minute—spamming requests locks the gateway. iOS: Settings → Messages → Filter unknown senders (turn off temporarily). Android: disable SMS apps that hide bank texts. Still nothing after three tries? Call ByBet customer support to confirm your number on file—never read an OTP to anyone over the phone.",
+    "priority": 12
+  },
+  {
+    "id": "troubleshoot_logout",
+    "category": "troubleshooting",
+    "question": "Auto logout / session expired",
+    "keywords": [
+      "auto logout",
+      "logged out",
+      "session expired",
+      "kicked out"
+    ],
+    "answer": "Sessions end after idle time or security refresh—log back in with password + OTP. Update the app, clear cache (Android), or reinstall only from the official store if crashes repeat. Persistent loop? Send ByBet customer support your OS version and a short screen recording.",
+    "priority": 9
+  },
+  {
+    "id": "restriction_duplicate",
+    "category": "restriction_policy",
+    "question": "Duplicate accounts",
+    "keywords": [
+      "duplicate account",
+      "multiple accounts",
+      "second account"
+    ],
+    "answer": "One player, one account—extra profiles are merged or closed under the fraud policy. If you forgot which number you registered, reset password on the login page or ask ByBet customer support to find your account after identity questions.",
+    "priority": 11
+  },
+  {
+    "id": "restriction_age",
+    "category": "restriction_policy",
+    "question": "Age restrictions",
+    "keywords": [
+      "age limit",
+      "how old",
+      "minor",
+      "underage"
+    ],
+    "answer": "You must be at least the legal gambling age stated in ByBet’s **Terms** and local law. Accounts that fail age checks are closed and balances handled per policy. Parents: lock app stores and payment methods on devices minors use.",
+    "priority": 11
+  },
+  {
+    "id": "restriction_prohibited",
+    "category": "restriction_policy",
+    "question": "Prohibited individuals",
+    "keywords": [
+      "prohibited",
+      "self exclusion",
+      "banned player"
+    ],
+    "answer": "Self-exclusion, cooling-off, or government lists block play for a fixed period—honor those dates. To ask about your status or shorten a voluntary block where rules allow, contact ByBet customer support through official chat or hotline only.",
+    "priority": 10
+  },
+  {
+    "id": "legitimacy_pagcor",
+    "category": "legitimacy",
+    "question": "Is ByBet legit / licensed?",
+    "keywords": [
+      "is bybet legit",
+      "is bybet legal",
+      "licensed",
+      "pagcor",
+      "legitimate"
+    ],
+    "answer": "ByBet operates as a regulated online sports betting service in the Philippines under PAGCOR rules for the applicable license class. Open **About**, **Terms**, or the footer inside the official app or website to read the license name, number, and operator legal name. For a written confirmation letter, request it from ByBet customer support.",
+    "priority": 12
+  },
+  {
+    "id": "legitimacy_office",
+    "category": "legitimacy",
+    "question": "Office / company location",
+    "keywords": [
+      "office address",
+      "where is office",
+      "company location"
+    ],
+    "answer": "Registered office and support addresses appear in the **Terms**, **About**, or **Contact** section of the official ByBet website and app. Use only those addresses—scammers publish fake offices on social media.",
+    "priority": 8
+  },
+  {
+    "id": "legitimacy_unrelated",
+    "category": "legitimacy",
+    "question": "Unrelated questions",
+    "keywords": [
+      "weather",
+      "joke",
+      "who won the election"
+    ],
+    "answer": "I only handle ByBet account and betting support. For unrelated topics I can reply briefly—then please use ByBet customer support for payments, verification, or account issues.",
+    "priority": 4
+  },
+  {
+    "id": "responsible_gaming",
+    "category": "responsible_gaming",
+    "question": "Responsible gaming",
+    "keywords": [
+      "responsible gaming",
+      "gambling problem",
+      "betting addiction",
+      "self control"
+    ],
+    "answer": "Treat every bet as paid entertainment: decide a loss limit before you play, stop when you hit it, and never borrow to gamble. Use deposit limits or cooling-off tools inside **Responsible gaming** settings. If betting stops feeling fun, self-exclude and contact a local counseling hotline—ByBet’s responsible gaming page lists helplines where applicable.",
+    "priority": 12
+  },
+  {
+    "id": "profanity_warning",
+    "category": "profanity",
+    "question": "Profanity / abusive language",
+    "keywords": [
+      "profanity",
+      "curse",
+      "insult",
+      "abusive"
+    ],
+    "answer": "I’ll help you faster if we keep this professional. Abusive language can end the chat or trigger a review under the code of conduct.",
+    "priority": 8
+  },
+  {
+    "id": "sports_betting_basics",
+    "category": "sports_betting",
+    "question": "What is sports betting?",
+    "keywords": [
+      "what is sports betting",
+      "how does betting work",
+      "odds",
+      "stake",
+      "wager"
+    ],
+    "answer": "You pick a sport, choose a market (moneyline, spread, totals, props, etc.), enter a stake, and confirm. Odds show what a winning ticket returns; the bet slip lists rules for voids, overtime, and cash-out if offered. Read the slip before you tap **Place bet**—that’s the contract for that wager.",
+    "priority": 10
+  },
+  {
+    "id": "promotion_general",
+    "category": "promotion",
+    "question": "Promotions / bonuses overview",
+    "keywords": [
+      "promotion",
+      "free bet",
+      "offer",
+      "promo code"
+    ],
+    "answer": "All promos live under **Promotions** or **Offers** in the app. Open a card, read eligibility (new player, first deposit, sport-specific, etc.), expiry time, wagering multiplier, and max cash-out. Tap **Join** / **Opt-in** before you bet if the rules require it—without opt-in, a bonus will not credit. Your personal progress sits under **My promotions** or **Bonus wallet**. For eligibility on your account, message ByBet customer support with your username.",
+    "priority": 10
+  },
+  {
+    "id": "promotion_birthday",
+    "category": "promotion",
+    "question": "Birthday bonus",
+    "keywords": [
+      "birthday bonus",
+      "birthday promo"
+    ],
+    "answer": "Birthday rewards, when active, appear under **Promotions** and **Notifications** during your birthday week. The promo card states eligibility, KYC needs, claim frequency, and turnover—follow it exactly. Steps: open the birthday offer → **Claim** → complete any turnover listed → bonus credits to **Bonus balance** or **Main** per the terms. Nothing showing? Confirm your birth date in **Profile** and message ByBet customer support after a refresh.",
+    "priority": 9
+  },
+  {
+    "id": "careers_jobs",
+    "category": "support_scope",
+    "question": "Careers and job applications",
+    "keywords": [
+      "careers",
+      "apply for a job",
+      "job opening",
+      "hiring",
+      "resume",
+      "send resume"
+    ],
+    "answer": "ByBet lists open roles and official application steps on its verified website and social pages when hiring is active. Send your CV and the position title only through the email or form ByBet publishes there—never through random chat accounts. ByBet customer support can point you to the current careers inbox if the site is unclear.",
+    "priority": 7
+  },
+  {
+    "id": "promotion_20_pesos",
+    "category": "promotion",
+    "question": "20 pesos bonus",
+    "keywords": [
+      "20 pesos",
+      "20 peso",
+      "20 php",
+      "twenty pesos",
+      "claim the 20",
+      "claim the 20 pesos",
+      "20 pesos bonus",
+      "claim bonus",
+      "how do i claim"
+    ],
+    "answer": "Small test or welcome credits (for example **[amount]** PHP) run as limited-time promos. Flow: **Promotions** → select the **20 / welcome** tile → read min deposit (if any), wagering, and expiry → tap **Claim** or **Join** → complete the listed action (first deposit, phone verify, etc.). The credit lands in **Bonus** or **Main** exactly as the terms state. If the button is greyed out, you likely missed a prerequisite—screenshot the screen and ask ByBet customer support to read your promo eligibility.",
+    "priority": 11
+  },
+  {
+    "id": "support_scope",
+    "category": "support_scope",
+    "question": "What the bot cannot do",
+    "keywords": [
+      "check my balance",
+      "my kyc status",
+      "approve my withdrawal",
+      "reset my account"
+    ],
+    "answer": "I can’t open your wallet, see KYC results, or push withdrawals through. For live data or manual fixes, log in on your device or speak with ByBet customer support after you verify your identity.",
+    "priority": 10
+  },
+  {
+    "id": "maintenance_system",
+    "category": "maintenance",
+    "question": "System maintenance",
+    "keywords": [
+      "system maintenance",
+      "under maintenance",
+      "server down"
+    ],
+    "answer": "During maintenance, login, betting, or payments can pause—read the banner on the login page for start/end times. After the window, force-close the app and relaunch. Still offline? Clear cache, update to the latest build, then contact ByBet customer support if the outage isn’t announced.",
+    "priority": 8
+  }
+]
