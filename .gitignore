@@ -5,3 +5,4 @@ node_modules
 dist
 chat-widget/.vite/
 **/.vite/
+.aws/
